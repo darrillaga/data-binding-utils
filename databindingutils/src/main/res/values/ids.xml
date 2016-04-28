@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="binded" type="id"/>
+    <item name="adapterAdded" type="id"/>
+    <item name="onSwipeRefresh" type="id"/>
+    <item name="onClickSubscribe" type="id"/>
+    <item name="dividerAdded" type="id"/>
+</resources>

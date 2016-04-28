@@ -1,0 +1,22 @@
+apply plugin: 'com.jfrog.bintray'
+
+bintray {
+    user = 'darrillaga'
+    key = '0b3b545bda9e3611ce275027257a43107516bb1a'
+    pkg {
+        repo = 'maven'
+        name = 'me.darrillaga.databinding.utils'
+
+        version {
+            name = '0.0.1'
+            desc = 'Data binding utils'
+            released  = new Date()
+            vcsTag = '0.0.1'
+        }
+
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/darrillaga/data-binding-utils.git'
+        websiteUrl = 'https://github.com/darrillaga/data-binding-utils'
+    }
+    configurations = ['archives']
+}
